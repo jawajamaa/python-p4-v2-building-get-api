@@ -70,3 +70,5 @@ with app.app_context():
         reviews.remove(r)
 
     db.session.commit()
+
+print("Seeded db; now it's up to you!")
